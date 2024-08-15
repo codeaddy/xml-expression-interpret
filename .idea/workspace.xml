@@ -4,31 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15e8c47e-a908-42a4-b931-f5626810aa63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/xmlevaluator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/xmlevaluator/OperatorsRealizationLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/xmlevaluator/dto/Condition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/xmlevaluator/dto/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/xmlevaluator/dto/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/xmlevaluator/dto/ExpressionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/xmlevaluator/dto/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/xmlevaluator/dto/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/xmlevaluator/dto/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/xmlevaluator/dto/Variable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/xmlevaluator/dto/VariableStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/xmlevaluator/dto/XPathElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/xmlevaluator/evaluator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/xmlevaluator/example.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/xmlevaluator/treeMaker/TreeProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TreeProviderTest.java" afterDir="false" />
+    <list default="true" id="15e8c47e-a908-42a4-b931-f5626810aa63" name="Changes" comment="Version 1.0 of xml-evaluator">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +26,11 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -59,20 +42,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "actions.on.save"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/xmlevaluator" />
@@ -148,8 +132,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720042902810</updated>
-      <workItem from="1720042904082" duration="69242000" />
+      <workItem from="1720042904082" duration="69616000" />
+      <workItem from="1723716108802" duration="1025000" />
     </task>
+    <task id="LOCAL-00001" summary="Version 1.0 of xml-evaluator">
+      <created>1720784512650</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720784512650</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,11 +153,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Version 1.0 of xml-evaluator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0 of xml-evaluator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
